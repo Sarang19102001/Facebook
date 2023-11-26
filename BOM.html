@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Open/Close</title>
+</head>
+<body>
+	<button onclick="instagram()"> CLICK TO OPEN INSTAGRAM</button>
+	<button onclick="cls()"> CLICK TO CLOSE INSTAGRAM</button>
+	<script type="text/javascript">
+		var a;
+		function instagram() {
+			a=open("","https://www.instagram.com","height=300,width=300");
+		}
+		function cls(){
+			a.close()
+		}
+
+	</script>
+
+</body>
+</html>
